@@ -1,0 +1,52 @@
+.confirmacaoAgendamento h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.dadosAgendamento {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.dadosAgendamento h2 {
+    font-size: 1.5rem;
+    color: #007acc;
+    margin-bottom: 1rem;
+}
+
+.dadosAgendamento p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.inputData,
+.selectHorario {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.confirmarButton {
+    background-color: #007acc;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.confirmarButton:hover {
+    background-color: #005f99;
+}

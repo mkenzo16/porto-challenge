@@ -1,0 +1,61 @@
+.conteudo {
+    display: flex;
+    align-items: center;
+    display: flex;
+}
+
+.gitImg{
+    width: 3vw;
+}
+
+.perfil {
+    width: 70%;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.fundo {
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid rgba(0, 0, 0, 0.65);
+    padding: 40px;
+    width: 75vw;
+    margin: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+}
+
+@media screen and  (max-width: 700px) {
+    .fundo {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .card {
+        width: 70vw;
+        margin-top: 20px;
+    }
+
+    .gitImg {
+        width: 10vw;
+    }
+}
+
+@media screen and  (max-width: 700px) {
+    .gitImg{
+        width: 20vw;
+    }
+
+    .card {
+        width: 90vw;
+    }
+}

@@ -1,0 +1,46 @@
+.mapContainer {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 80vh;
+    padding: 20px;
+}
+
+.listContainer {
+    width: 25%;
+    max-height: 100%;
+    overflow-y: auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.centroItem {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.centroItem h3 {
+    font-size: 1rem;
+    color: #333;
+}
+
+.centroItem p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.centroItem a {
+    color: #0A7DA8;
+    text-decoration: none;
+}
+
+.map {
+    flex-grow: 1;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

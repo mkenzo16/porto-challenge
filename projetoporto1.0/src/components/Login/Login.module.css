@@ -1,0 +1,95 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 3rem 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    margin: 10% auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.loginH1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.loginInput {
+    border: none;
+    border-bottom: 2px solid #007bff;
+    padding: 0.75rem;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    transition: all 0.3s ease;
+    background: none;
+    outline: none;
+}
+
+.loginInput:focus {
+    border-bottom-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 91, 187, 0.2);
+}
+
+.loginButton {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
+}
+
+.loginButton:hover {
+    background-color: #0056b3;
+}
+
+.msgErro {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 768px) {
+    .login {
+        width: 90%;
+    }
+
+    .loginH1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .login {
+        padding: 2rem;
+    }
+
+    .loginH1 {
+        font-size: 1.5rem;
+    }
+
+    .loginButton {
+        font-size: 0.95rem;
+        padding: 0.6rem;
+    }
+}

@@ -1,0 +1,93 @@
+.pagamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pagamento h1 {
+    font-size: 2.2rem;
+    color: #004aad;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.formGroup {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.formGroup label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #004aad;
+    margin-bottom: 0.5rem;
+}
+
+.selectMetodo,
+.selectParcelas,
+.input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.selectMetodo:focus,
+.selectParcelas:focus,
+.input:focus {
+    border-color: #004aad;
+    box-shadow: 0 0 8px rgba(0, 74, 173, 0.25);
+}
+
+.cartaoInfo {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.cartaoColuna {
+    flex: 1 1 calc(50% - 1rem);
+    min-width: 200px;
+}
+
+.pagamentoButton {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #004aad;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 1.5rem;
+}
+
+.pagamentoButton:hover {
+    background-color: #00337f;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .cartaoInfo {
+        flex-direction: column;
+    }
+}
